@@ -1,12 +1,5 @@
 import Image from "next/image";
-import delivery_i from "../Images/Delivery.png"
-import check_i from "../Images/Checkmark--outline.png"
-import purchase_i from "../Images/Purchase.png"
-import flower_i from "../Images/Sprout.png"
-import Footer from "./footer";
 import delivery from "../Images/Delivery.png" 
-import close from "../Images/Close.png" 
-import P4 from "../Images/Photo (2).png"
 import sprout from "../Images/Sprout.png"
 import check from "../Images/check.png"
 import purchase from "../Images/Purchase.png"

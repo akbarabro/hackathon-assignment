@@ -1,6 +1,5 @@
 import Image from "next/image"
 import Header from "../components/header"
-import Footer from "../components/footer"
 import img_listing_top from ".././Images/Frame 143.png"
 import down_arrow from ".././Images/Caret--down.svg"
 
