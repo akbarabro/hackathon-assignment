@@ -1,0 +1,744 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{  font-family: 'satoshi';
+}
+.header_all{
+  display: flex;
+  align-items: center;
+  padding: 0% 4em;
+}
+.ml5{
+  margin-right: 200px;
+}
+.icons_header{
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  padding: 2em;
+}
+.header-logo{
+  font-family: 'clash Display';
+}
+
+.Header-ul li{
+  font-family: 'satoshi';
+}
+
+.hero_Home{
+  width: 100%;
+  height: 704px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero_main{
+  height: 584px;
+  width: 1280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.H-div1{
+    width: 760px;
+    background-color: #2A254B;
+    height: 584px;
+
+}
+
+.hero-H{
+  width: 513px !important;
+  height: 187px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  color: white;
+  margin-left: 70px;
+  margin-top: 60px;
+}
+
+.hero-b{
+  font-family: 'satoshi';
+}
+
+.hero-H1{
+  width: 602px;
+  height: 81px;
+  font-size: 18px;
+  margin-top: 196px;
+  font-family: 'satoshi';
+  margin-left: 70px;
+  line-height: 27px;
+}
+
+.hero-H-text{
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+  color: white;
+  font-family: 'clash Display'
+}
+
+.hero-H1-text{
+  font-family: 'satoshi';
+  font-size: 18px;
+  line-height: 25px;
+  color: white;
+}
+
+.H-div2{
+    width: 520px;
+    height: 100%;
+    background-image: url(./Images/Right\ Image.png);
+}
+
+.home-main{
+  font-family: 'satoshi';
+}
+
+.brand{
+  height: 355px;
+  width: 1440px;
+}
+
+.brand-text{
+  font-family: 'clash Display' !important;
+}
+
+.br-disc1{
+  font-size: 20px;
+  font-family:'clash Display' !important ;
+  color:#2A254B;
+}
+
+.br-disc2{
+  color:#2A254B;
+  font-size: 16px;
+}
+
+.n-c-title{
+  height: 129px;
+  font-family:'clash Display' !important  ;
+  display: flex;
+  align-items: end;
+  justify-content: start;
+  font-size: 32px;
+  color: #2A254B;
+}
+
+
+.n-c-product{
+  font-family:'clash Display' !important  ;
+  font-size: 20px;
+  color: #2A254B;
+  font-weight: 400;
+}
+
+.n-c-price{
+  color: #2A254B;
+  font-size: 18px;
+  font-family: 'satoshi' ;
+  font-weight: 400;
+}
+
+
+.n-c-button{
+  height: 56px;
+  width: 170px;
+  color: #2A254B;
+  font-family: 'satoshi' ;
+  font-size: 16px;
+  background-color: #F9F9F9;
+}
+
+.h-j-title{
+  font-size: 36px;
+  font-family:'clash Display' !important;
+  color: #2A254B;
+  text-align: center;
+}
+
+.h-j-disc{
+  font-size: 16px;
+  font-family: 'satoshi' ;
+  color: #2A254B;
+  text-align: center;
+}
+
+.h-j-mail{
+  height: 56px;
+  width: 354px;
+  background-color: #edebebbd;
+  color: #2A254B;
+  font-size: 16px;
+  font-family: 'satoshi' ;
+  opacity: .4;
+  padding-left: 32px;
+  padding-right: 32px;
+
+}
+
+.h-j-sign-btn{
+  height: 56px;
+  width: 118px;
+  background-color: #2A254B;
+  font-size: 16px;
+  font-family: 'satoshi' ;
+  color: white;
+}
+
+.home-last{
+  color: #2A254B;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 72px;
+  margin-left: 84px;
+}
+
+.h-l-disc1{
+  font-size: 24px;
+  font-family:'clash Display' !important;
+  color: #2A254B;
+
+}
+
+.h-l-disc2{
+  font-size: 16px;
+  font-family: 'satoshi' ; 
+  color: #2A254B;
+}
+
+.h-l-btn{
+  background-color: #F9F9F9;
+  height: 56px;
+  width: 150px;
+  font-family: 'satoshi' ; 
+  color: #2A254B;
+  margin-bottom: 68px;
+  margin-left: 84px;
+}
+
+
+/* Product Page */
+.announcementBar{
+  height: 41px;
+  width: 100%;
+  color: white;
+  background-color: #2A254B;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 400;
+  align-items: center;
+}
+.ann_text{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+.delivery_img{
+  height: 16px;
+  width: 16px;
+}
+.close_img{
+  height: 24px;
+  width: 24px;
+  margin: 0em 1em;
+}
+.close{
+  position: absolute;
+  right: 1px;
+}
+
+
+
+/* Product Info  */
+.product_detail{
+  display: flex;
+  align-items: center;
+  font-family: 'satoshi';
+
+  
+}
+.product_img_box{
+width: 50%;
+}
+.product_img{
+  /* height: 759px; */
+  /* width: 721px; */
+}
+.product_info{
+  gap: 1em 0px;
+  width: 50%;
+  padding: 0px 70px;
+  /* margin-top: -17em; */
+}
+.product_name{
+  font-size: 36px;
+  font-weight: 400;
+  font-family: 'clash Display';
+
+}
+.Prouct_price{
+  font-size: 24px;
+  font-weight: 400;
+  font-family: 'satoshi';
+
+}
+.description{
+  margin-top: 4em;
+  font-weight: 300;
+}
+.desc-title{
+  margin-bottom: 1em;
+  font-weight:400;
+  font-family: 'clash Display';
+
+}
+.desc-para{
+  
+  width: 80%;
+  /* font-weight: 400; */
+}
+.features{
+  margin-top: 1em;
+  padding:0px 5px;
+}
+.feature{
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.dot{
+  height: 5px;
+  width: 5px;
+  border-radius: 100%;
+  background-color: #2A254B;
+}
+.dimens{
+  margin-top: 3em;
+}
+.Dimension{
+  font-family: 'clash Display';
+  font-weight: 400;
+}
+
+.dimen-titles{
+  font-family: 'clash Display';
+  display: flex;
+  justify-content: space-evenly; 
+  gap: 3em;
+  width: 10em;
+  margin-top: 1em;
+}
+.dimen-values{
+  font-family: 'satoshi' !important;
+  margin-top: 4px !important;
+}
+.dimen-values h3{
+  margin-left: 3px;
+}
+.qty_cart{
+  margin-top: 5em;
+  display: flex;
+  font-family: 'clash Display';
+  align-items: center;
+}
+.qty_input{
+  width: 20%;
+  outline: none;
+  border: none;
+  padding: 5px 2px;
+  color: black;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+.box{
+  padding: 10px;
+  background-color: #f9f9f9;
+  display: inline;
+  margin-left: 1em;
+}
+.qty_input::placeholder{
+  color: black;
+}
+.amount{
+  font-size: 16px;
+}
+.addTOCart{
+  background-color: #2A254B;
+  width: 143px;
+  height: 56px;
+  color: white;
+  margin-left: 7em;
+  font-family: 'satoshi';
+
+}
+.h2{
+  font-size: 24px;
+  font-family: 'clash Display';
+  text-align: center;
+  margin-top: 3em;
+}
+.section_defference{
+  display: flex;
+  justify-content: space-around;
+  font-family: 'clash Display';
+  font-size: 400px;
+  margin-top: 60px;
+  
+}
+.def_heading{
+  font-size: 20px;
+  margin: 10px 0px;
+}
+.def_para{
+  font-size: 16px;
+  font-family: 'satoshi' !important;
+
+}
+.container-90{
+  width: 90%;
+  position: relative;
+  left: 5%;
+}
+
+
+
+/* newsletter div  css*/
+
+.main_newsletter{
+  height: 481px;
+  background-color: #F9F9F9;
+  margin-top: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sub_newsletter{
+  height: 364px;
+  width: 1273px;
+  background-color: white;
+}
+.h1{
+  font-size: 36px;
+  font-family: 'clash Display';
+  text-align: center;
+  margin-top: 1.3em;
+}
+.para{
+  text-align: center;
+  font-size: 16px;
+  font-family: 'satoshi';
+
+}
+.newslertter{
+  margin-top: 5em;
+  display: flex;
+  justify-content: center;
+}
+.dum{
+  margin-left: 0px !important;
+}
+.input_news{
+  width: 354px;
+  height: 56px;
+  border: none;
+  outline: none;
+  padding: 10px 30px;
+  background-color: #f9f9f9;
+}
+
+
+
+
+
+
+
+/* Footer Section */
+.footer{
+  background-color: #2A254B;
+  height: 380px;
+  color: white;
+  font-family: 'satoshi';
+  font-weight: 300;
+  font-size: 14px;
+}
+.footer-top{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 4em;
+}
+.hedding_footer{
+  font-family: 'clash Display';
+  font-size: 16px;
+}
+.section_footer ul li{
+  line-height: 2em;
+}
+.input_footer{
+  background-color: #FFFFFF24;
+  width: 100%;
+  height: 56px;
+
+}
+.btn_footer{
+  background-color: white;
+  color: #2A254B;
+}
+.mt-0{
+  margin-top: 20px;
+}
+.footer-bottom{
+  position: relative;
+  top:9em;
+}
+.last_footer_line{
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-main{
+  border-bottom: 1px solid #4E4D93;
+}
+.F-logo{
+  font-family: 'clash Display';
+}
+
+.f-disc{
+  font-family: 'satoshi';
+  font-weight: 400;
+}
+
+.f-social{
+  color: white;
+  font-size: 16px;
+  font-family: 'satoshi';
+  font-weight: 400;  
+
+}
+
+.f-main{
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  font-family: 'clash Display'; 
+}
+
+.f-tag{
+  font-size: 14px;
+  font-weight: 300;
+  color: white;
+  font-family: 'satoshi';
+}
+
+.f-botom{
+  font-family: 'satoshi';
+  font-weight: 300; 
+}
+
+
+
+/* About Page */
+.abouttop{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  position: relative;
+  left: 10%;
+  margin-top: 4em;
+}
+
+.texttop{
+  font-size: 36px;
+  font-family: 'clash Display'; 
+}
+.Viewmore{
+  background-color: #f9f9f9;
+  height: 56px;
+  width: 192px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section1_about{
+  margin-top: 9em;
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+
+}
+.sec1-text{
+  height: 478px;
+  width: 634px;
+  background-color: #2A254B;
+  color: white;
+padding: 0.1em 3em;
+font-weight: 300;
+}
+.heading_aboutsec{
+  font-size: 32px;
+  margin-top: 2em;
+  font-family: 'clash Display'; 
+}
+.About_para{
+  font-size: 18px;
+  margin-top: 5px;
+
+}
+.btn-opacity{
+  width: 170px;
+  height: 56px;
+  background-color: rgba(249, 249, 249, 0.15);
+  font-size: 16px;
+  margin-top: 12em;
+  font-weight: 300;
+}
+.hr{
+  position: relative;
+  top: 3em;
+}
+
+.ourservice_about{
+  margin-top: 4em;
+  justify-content: center;
+  display: flex;
+}
+.img_os_about{
+  width: 720px;
+  height: 603px;
+}
+.text_osAbout{
+  background-color: #F9F9F9;
+  height: 603px;
+width: 50%;
+padding: 0% 3em; 
+
+}
+.img_about2{
+  width: 720px;
+}
+.heding_service_about{
+  font-family: 'clash Display'; 
+
+}
+.txt{
+  text-align: left;
+}
+.para_about{
+  margin-top: 2em;
+}
+.btn-white{
+  background-color: white;
+}
+
+.bg-grey{
+  background-color: #F9F9F9;
+  padding: 55px;
+}
+
+
+
+/* Cart */
+.head-cart{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+  font-weight: 300;
+}
+.container-70{
+  width: 70%;
+  position: relative;
+  left: 15%;
+}
+.row1{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+}
+.td{
+  display: flex;
+  font-weight: 300;
+}
+.heading_cart{
+  font-size: 20px;
+}
+.content_add{
+  padding: 1em;
+
+}
+.para_cart{
+  margin: 0.5em 0px;
+}
+.qty_cart{
+  position: relative;
+  right: 8em;
+  top: -5em;
+}
+.head-cart{
+  border-bottom: 0.1px solid #2a254b19;
+  padding-bottom: 15px;
+}
+
+
+.total{
+  font-family: 'clash Display'; 
+  color: #2A254B;
+  font-size: 20px;
+
+}
+
+.price{
+  color: #2A254B;
+  font-size: 24px;
+  font-family: 'satoshi';
+  
+}
+
+.total-disc{
+  font-size: 14px;
+  color: #2A254B;
+  font-family: 'satoshi';
+  
+}
+
+.btn-check{
+  background-color: #2A254B;
+  font-size: 16px;
+  color: white;
+  font-family: 'satoshi';
+}
+.raza-line{margin-top: 1em;
+  border-top: 0.1px solid #2a254b19;
+}
+
+/* Lising Page */
+.sub_heaing-listing{
+  margin-top: 1em;
+  width: 90%;
+  position: relative;
+  left: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.img_top_listing{
+  margin-left: 3.5em;
+}
+.sub-cat{
+  font-family: 'satoshi';
+  font-weight: 300;
+}
+.h2_listing{
+  display: flex;
+}
+
+.footer-ul{
+  line-height: 27px;
+}
